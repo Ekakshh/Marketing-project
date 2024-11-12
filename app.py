@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import confusion_matrix, accuracy_score
 
 # Load the pre-trained model
-model = joblib.load('C:\Users\upadh\OneDrive\Desktop\MLops\c2_Classifier_LoyalCustomers')
+model = joblib.load('c2_Classifier_LoyalCustomers')
 
 # App title and description
 st.title("Marketing Campaign Lead Scoring")
