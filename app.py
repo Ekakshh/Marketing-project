@@ -62,7 +62,7 @@ if uploaded_file:
 
     # Model Evaluation (optional)
     st.write("### Model Performance Metrics")
-    if 'Actual Outcome' in dataset.columns
+    if 'Actual Outcome' in dataset.columns:
         y_true = dataset['Actual Outcome']
         accuracy = accuracy_score(y_true, y_pred)
         confusion = confusion_matrix(y_true, y_pred)
